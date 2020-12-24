@@ -1,6 +1,7 @@
 /*Color Variables*/
 /**************** extend css start ****************/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap");
+@import url("compare.css");
 /* line 2, ../../ */
 .btn_2, .form-contact .form-group .btn_1 i {
   background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ffba00 100%);
@@ -2300,7 +2301,7 @@ ul {
   /* line 208, ../../ */
   .main_menu .main-menu-item .nav-item .nav-link {
     padding: 5px 15px !important;
-    color: #000;
+    color: #fff;
   }
   /* line 215, ../../ */
   .navbar-collapse {
@@ -2309,8 +2310,11 @@ ul {
     left: 0;
     top: 50px;
     width: 100%;
-    background-color: #fff;
+    background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
     text-align: center !important;
+    
   }
   /* line 226, ../../ */
   .dropdown .dropdown-menu {
@@ -7283,19 +7287,7 @@ h6 {
 }
 
 /* line 107, ../../ */
-.form-contact textarea {
-  border-radius: 12px;
-  height: 100% !important;
-}
-.form-contact input, select,textarea {
-  color: #ddd;
-}
-.form-contact textarea {
-  color: #ddd;
-}
-.form-contact textarea:focus,.form-contact input:focus{
-  color: #828894;
-}
+
 
 @media (max-width: 576px) {
   /* line 119, ../../ */
